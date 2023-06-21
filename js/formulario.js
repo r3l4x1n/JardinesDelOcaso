@@ -21,7 +21,7 @@ boton.addEventListener("click",function(infoEvento){
 
     let errores=[]
     let citas
-    let datosMemoria=JSON.parse(localStorage.getItem("datos"))
+    let datosMemoria=JSON.parse(sessionStorage.getItem("datos"))
     if(!datosMemoria){
         citas=[]
     }else{
@@ -168,7 +168,7 @@ function eliminarDivError(elemento) {
         )
         
         //abrimos la memoria para almacenar la data
-        localStorage.setItem("datos",JSON.stringify(citas))
+        sessionStorage.setItem("datos",JSON.stringify(citas))
 
     }
 
