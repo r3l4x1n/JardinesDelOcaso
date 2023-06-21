@@ -1,2 +1,15 @@
 
-Jardines del Ocaso es un centro integral para personas mayores que ofrece cuidado y apoyo personalizado. Nuestro objetivo es crear un entorno tranquilo y hermoso donde los residentes disfruten de su etapa dorada. Contamos con un equipo altamente capacitado y comprometido, que incluye enfermeras, cuidadores, terapeutas y personal administrativo. Valoramos la calidad de atención y proporcionamos un ambiente seguro, cálido y enriquecedor. Ofrecemos servicios adaptados a las necesidades individuales de cada residente, desde atención personalizada y cuidado médico hasta programas recreativos y terapéuticos. Nuestro enfoque se basa en la atención centrada en la persona, considerando las preferencias y necesidades de cada residente. Valoramos la comunicación abierta con las familias y buscamos colaborar con ellas en el cuidado de sus seres queridos. En Jardines del Ocaso, nos enorgullece ofrecer un cuidado integral y de calidad, creando una comunidad vibrante donde los residentes se sientan valorados y respetados.
+Jardines del Ocaso es un centro integral para personas mayores 
+que ofrece cuidado y apoyo personalizado. Nuestro objetivo es crear un 
+entorno tranquilo y hermoso donde los residentes disfruten de su etapa dorada.
+Contamos con un equipo altamente capacitado y comprometido, que incluye 
+enfermeras, cuidadores, terapeutas y personal administrativo. Valoramos la 
+calidad de atención y proporcionamos un ambiente seguro, cálido y enriquecedor.
+Ofrecemos servicios adaptados a las necesidades individuales de cada residente, 
+desde atención personalizada y cuidado médico hasta programas recreativos y terapéuticos.
+Nuestro enfoque se basa en la atención centrada en la persona, considerando las preferencias
+y necesidades de cada residente. Valoramos la comunicación abierta con las familias y 
+buscamos colaborar con ellas en el cuidado de sus seres queridos. 
+En Jardines del Ocaso, nos enorgullece ofrecer un cuidado integral 
+y de calidad, creando una comunidad vibrante donde los residentes se 
+sientan valorados y respetados.

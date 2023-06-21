@@ -20,13 +20,17 @@ memoria.forEach(function(cita){
     let usuario=document.createElement("h3")
     usuario.textContent=cita.usuario
 
-    let correo=document.createElement("p")
-    correo.textContent="Email: "+cita.correo
+    let fecha=document.createElement("p")
+    fecha.textContent="Fecha: "+cita.fecha
+
+    let hora=document.createElement("p")
+    hora.textContent="Hora: "+cita.hora
 
     //padres e hijos
     columnaUno.appendChild(titulo)
     columnaDos.appendChild(usuario)
-    columnaDos.appendChild(correo)
+    columnaDos.appendChild(fecha)
+    columnaDos.appendChild(hora)
     fila.appendChild(columnaUno)
     fila.appendChild(columnaDos)
     contenedor.appendChild(fila)
