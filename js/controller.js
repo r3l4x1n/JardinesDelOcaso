@@ -1,4 +1,4 @@
-let memoria=JSON.parse(localStorage.getItem("datos"))
+let memoria=JSON.parse(sessionStorage.getItem("datos"))
 
 let contenedor=document.getElementById("contenedor")
 
