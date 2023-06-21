@@ -16,9 +16,16 @@ memoria.forEach(function(cita){
 
     let titulo=document.createElement("h1")
     titulo.textContent="CITA ASIGNADA"
+    let eliminar=document.createElement("i");
+    eliminar.classList.add("bi", "bi-trash-fill");
+    eliminar.textContent="eliminar  ...";
+    let editar=document.createElement("i");
+    editar.classList.add("bi","bi-pencil-fill");
+    editar.textContent="editar ";
 
     let usuario=document.createElement("h3")
     usuario.textContent=cita.usuario
+    
 
     let fecha=document.createElement("p")
     fecha.textContent="Fecha: "+cita.fecha
@@ -28,6 +35,8 @@ memoria.forEach(function(cita){
 
     //padres e hijos
     columnaUno.appendChild(titulo)
+    columnaUno.appendChild(eliminar)
+    columnaUno.appendChild(editar)
     columnaDos.appendChild(usuario)
     columnaDos.appendChild(fecha)
     columnaDos.appendChild(hora)
