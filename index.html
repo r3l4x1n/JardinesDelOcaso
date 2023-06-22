@@ -6,17 +6,23 @@
     <title>Jardines del Ocaso</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/iconPq.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
+  
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
-            <ul class=" nav navbar-nav  mx-auto ">
-              <li class="nav-item ">
+            <ul class="nav navbar-nav mx-auto">
+              <a class="navbar-logo" href="#">
+                <img src="./img/iconPq-PNG.png" alt="Logo" width="50" height="50">
+              </a>
+              <li class="nav-item">
                 <a class="nav-link active" href="./index.html">Quienes Somos</a>
               </li>
               <li class="nav-item">
@@ -34,6 +40,52 @@
       </nav>
     <!---fin navbar-->
 
+<!--carrusel-->
+ <div>
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./img/people3.jpg" class="d-block w-100" alt="bg1">
+                        <div class="carousel-caption d-none d-md-block text-bg-light ">
+                            <h5>¡Ayuda a transformar vidas y libera espacio en tu hogar! Dona o adquiere aparatos
+                                tecnológicos en nuestra tienda solidaria."</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/people4.jpg" class="d-block w-100" alt="bg2">
+                        <div class="carousel-caption d-none d-md-block text-bg-light">
+                            <h5>¿Tienes dispositivos electrónicos en desuso? Dales una segunda oportunidad y fomenta la
+                                reutilización ayudando a quienes más lo necesitan.</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/people5.jpg" class="d-block w-100" alt="bg3">
+                        <div class="carousel-caption d-none d-md-block text-bg-light">
+                            <h5>¡La tecnología puede cambiar el mundo! Dona tus dispositivos antiguos y adquiere los
+                                últimos avances en nuestra tienda solidaria.</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+<!--fin carrusel-->
 
     <section>
       <p>Jardines del Ocaso es un centro integral para personas mayores 
@@ -53,7 +105,13 @@
       </p>
   </section>
 
-
+  <script>
+    // Agrega la clase "scrolled" al navbar al hacer scroll hacia abajo
+    window.addEventListener('scroll', function() {
+      var navbar = document.querySelector('.navbar-custom');
+      navbar.classList.toggle('scrolled', window.scrollY > 0);
+    });
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

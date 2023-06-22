@@ -24,7 +24,28 @@ body {
     background-color: #f2f0e4;
 }
 
-nav :::before {
-    color: #776e52;
-}
-
+.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-expand-lg.scrolled {
+    transform: translateY(-100%);
+  }
+  
+  .navbar-expand-lg .navbar-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Agrega un margen superior al cuerpo para compensar el espacio ocupado por el navbar */
+  body {
+    margin-top: 70px;
+  }

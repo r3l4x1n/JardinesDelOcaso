@@ -180,5 +180,29 @@ function eliminarDivError(elemento) {
         confirmButtonText: 'Reintentar'
       })
  }
-   
+ if (errores.length == 0) {
+    // Restablecer los valores de los campos del formulario
+    cajaNombres.value = '';
+    cajaCorreo.value = '';
+    cajaTelefono.value = '';
+    cajaFecha.value = '';
+    cajaHora.value = 'Seleccione una hora';
+    cajaDocumento.value = '';
+    
+    // Restablecer las clases de validación
+    cajaNombres.classList.remove("is-valid");
+    cajaCorreo.classList.remove("is-valid");
+    cajaTelefono.classList.remove("is-valid");
+    cajaFecha.classList.remove("is-valid");
+    cajaHora.classList.remove("is-valid");
+    cajaDocumento.classList.remove("is-valid");
+  
+    // Eliminar los mensajes de error o validación
+    eliminarDivError(cajaNombres);
+    eliminarDivError(cajaCorreo);
+    eliminarDivError(cajaTelefono);
+    eliminarDivError(cajaFecha);
+    eliminarDivError(cajaHora);
+    eliminarDivError(cajaDocumento);
+  }
 })
